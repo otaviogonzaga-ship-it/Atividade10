@@ -2,8 +2,8 @@
 
 Projeto desenvolvido para a atividade de encerramento da disciplina de Desenvolvimento de Aplicações Web I.
 
-## Integrantes
-- [Coloque seu nome aqui]
+## Integrante
+- Luiz Otávio Gonzaga de Souza Lima
 
 ## Como jogar
 1. O computador escolhe uma palavra aleatória.
@@ -31,4 +31,4 @@ Projeto desenvolvido para a atividade de encerramento da disciplina de Desenvolv
 - Uso da tecla Enter para enviar uma tentativa.
 
 ## Link do jogo
-Adicione aqui o endereço do GitHub Pages depois de publicar o projeto.
+
