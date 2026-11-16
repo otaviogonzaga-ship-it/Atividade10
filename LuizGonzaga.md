@@ -3,7 +3,7 @@
 Projeto desenvolvido para a atividade de encerramento da disciplina de Desenvolvimento de Aplicações Web I.
 
 ## Integrantes
-- [Coloque seu nome aqui]
+- Luiz Otávio Gonzaga de Souza Lima
 
 ## Como jogar
 1. O computador escolhe uma palavra aleatória.
