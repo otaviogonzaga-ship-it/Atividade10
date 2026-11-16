@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(135deg, #dceeff, #f2e8ff);
+  color: #243047;
+}
+
+.jogo {
+  background-color: white;
+  padding: 32px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(30, 50, 90, 0.12);
+}
+
+h1 {
+  margin-top: 0;
+  color: #3159a8;
+}
+
+.descricao {
+  color: #64748b;
+}
+
+#palavra {
+  font-size: 2rem;
+  letter-spacing: 8px;
+  margin: 30px 0;
+  font-weight: bold;
+  color: #3159a8;
+  overflow-wrap: anywhere;
+}
+
+.tentativas {
+  font-size: 1.1rem;
+}
+
+#tentativas {
+  color: #3159a8;
+  font-size: 1.3rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.entrada {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+input {
+  width: 60px;
+  padding: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+  border: 1px solid #b8c5d9;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 16px;
+  border: 0;
+  border-radius: 8px;
+  background-color: #3159a8;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #244582;
+}
+
+button:disabled,
+input:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+#mensagem {
+  min-height: 24px;
+  font-weight: bold;
+  color: #3159a8;
+  margin: 20px 0;
+}
+
+.reiniciar {
+  margin-top: 12px;
+  background-color: #52657f;
+}
+
+.rodape {
+  margin-bottom: 0;
+  color: #8793a5;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 420px) {
+  .jogo {
+    padding: 24px 18px;
+  }
+
+  #palavra {
+    font-size: 1.6rem;
+    letter-spacing: 5px;
+  }
+}

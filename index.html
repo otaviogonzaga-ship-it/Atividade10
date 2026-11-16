@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo de Adivinhação</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="jogo">
+    <h1>Adivinhe a Palavra</h1>
+    <p class="descricao">Descubra a palavra secreta, uma letra por vez!</p>
+
+    <p id="palavra" aria-live="polite">_ _ _ _ _</p>
+
+    <p class="tentativas">Tentativas restantes: <strong id="tentativas">6</strong></p>
+
+    <label for="letra">Digite uma letra:</label>
+    <div class="entrada">
+      <input id="letra" type="text" maxlength="1" autocomplete="off" aria-label="Digite uma letra">
+      <button id="btn-tentar" type="button">Tentar</button>
+    </div>
+
+    <p id="mensagem" role="status" aria-live="polite">Boa sorte!</p>
+
+    <p>Letras utilizadas: <span id="letras-usadas">Nenhuma</span></p>
+
+    <button id="btn-reiniciar" class="reiniciar" type="button">Nova partida</button>
+    <p class="rodape">Desenvolvido para a atividade de Web I.</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
