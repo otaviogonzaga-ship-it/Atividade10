@@ -32,3 +32,4 @@ Projeto desenvolvido para a atividade de encerramento da disciplina de Desenvolv
 
 ## Link do jogo
 
+- https://otaviogonzaga-ship-it.github.io/Atividade10/
